@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putri's Page</title>
+  <link rel="shortcut icon" type="image/jpg" href="picture 1.jpg">  
+<style>
+body{
+
+background-size:cover;
+font-family:verdana;
+font-size:20px
+margin:0; yle>
+line-height:24px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6D9BC3;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .bdtbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .edubtn  {
+  background-color: #89CFF0;
+  opacity:1.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+   opacity:0.5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: green;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/home.html">Home</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/Biodata.html">Biodata</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/education.html">Education</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/family.html">Family</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/experience.html">Experience</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/gallery.html">Gallery</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/contact.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+</div>
+<div style="padding-left:25px"></div>
+</ul>
+
+
+
+<body style="margin: 0">
+  
+  <!--First division-->
+  <div id="firstdivision" style="background-image: url(background.jpg);background-size: cover; height: 500px; padding-top: 50px; text-align: center;">
+    <img src="picture 1.jpg" style="height: 150px; border-radius:50%;border: 10px">
+    <h1 style="font-size: 90px; color:#6D9BC3  ; margin: 30px; ">WELCOME TO PUTRI'S WEBSITE</h1>
+    <p style="font-size: 35px; color: white;">All About Myself</p>
+     
+
+  </div>
+
+  <!-- Third division -->
+<div id="thirddivision" style="height:100px; margin: 0px;">
+  <div class="container content padding-64" style="max-width:2000px" id="contact">
+    <h1 style="font-family: cursive;"><center>CONTACT</h1></center>
+    <p><i><center>Contact Me for More Information</center></i></p>
+    <div class="row padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i></i><center> Malaysia, Kuala Lumpur</center><br>
+        <i></i><center>Phone:011-36658506</center><br>
+        <i> </i><center> Email:<a href="mailto:balqisputri0005@gmail.com">balqisputri0005@gmail.com</a></center><br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:100 20px 10px 20px">
+            <div class="w3-half">
+              <center><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></center>
+            </div>
+            <div class="w3-half">
+              <center><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></center>
+            </div>
+          </div>
+          <center><input class="input border" type="text" placeholder="Message" required name="Message"></center>
+          <center><button class="button black section right" type="submit">SEND</button></center>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height: 3.0;font-size: 20px; ">End of page</p>
+
+<!--footer-->
+<div style="height: auto; background-size: cover; background-image: url(background.jpg) ">
+  <h1 style="color: black; padding: 40px; margin: 0; text-align: center;">Made with Love</h1>
+  <p style="font-size: 20px; text-align: center;">&copy; 2021 Nurul Putri Balqis Binti Zakaria</p><br>
+</div>
+  
+  </body>
+</html>  
