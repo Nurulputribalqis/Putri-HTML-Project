@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putri's Page</title>
+  <link rel="shortcut icon" type="image/jpg" href="picture 1.jpg">  
+<style>
+body{
+
+background-size:cover;
+font-family:verdana;
+font-size:20px
+margin:0; yle>
+line-height:24px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6D9BC3;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .bdtbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .edubtn  {
+  background-color: #89CFF0;
+  opacity:1.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+   opacity:0.5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: green;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/home.html">Home</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/Biodata.html">Biodata</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/education.html">Education</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/family.html">Family</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/experience.html">Experience</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/gallery.html">Gallery</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/contact.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+</div>
+<div style="padding-left:25px"></div>
+</ul>
+
+<body style="margin: 0">
+  
+  <!--First division-->
+  <div id="firstdivision" style="background-image: url(background.jpg);background-size: cover; height: 480px; padding-top: 80px; text-align: center;">
+    <img src="picture 1.jpg" style="height: 150px; border-radius:50%;border: 10px">
+    <h1 style="font-size: 90px; color:#6D9BC3  ; margin: 10px; ">WELCOME TO PUTRI'S WEBSITE</h1>
+    <p style="font-size: 35px; color:white; ">All About Myself</p>
+     
+
+  </div>
+
+<!--Fourth division-->
+    <img src="picture 2.jpg" style="height:700px; margin: 120px;float: right; "/>
+    <div id="fourthdivision" style="height:900px; margin: 120px;">
+    <h1 style="font-family: cursive;">Biodata</h1>
+    <p style="line-height: 2.0;font-size: 22px; ">My name is Nurul Putri Balqis Binti Zakaria and I am 21 years old. I am final years student at the Universiti Teknologi Mara (UITM).  I was born on 5 December 2000 at Hospital Kuala Lumpur (HKL) and currently living at Jalan Ipoh Kuala Lumpur. I can describe myself as a very shy person. It is hard for me to talk to a stranger or speaking in front of a lot of people. Sometimes, being a shy person is very difficult as I will be having difficulty to talk to my lecturers or classmates. I never ask question in class because I feel very shy to talk in front of my classmate. If I have any question, I will meet the lecturers personally. I hope one day I can cope with my shyness as it is very important for me to reduce my shyness. Next, everyone has their own hobby and same goes to me. My hobbies include playing badminton, reading and cycling. I have many hobbies as I love to do a lot of things. I love spending my time with something beneficial that can give many benefits to me. I will plays badminton and cycling with my sibling every evening to keep our body healthy. In addition, I also enjoy reading as it can help me to get a lot of new knowledge, strengthen my writing abilities, can help to improve my vocabulary and reading also can help me to release stress. Lastly, for the ambition, I would like to become a librarian. The reason why I want to become a librarian is because I want to help people to find the information that they need easily. The other reason is because I love reading so library is a perfect place for me as in library I will be surrounded by a lot of books. </p>  
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height: 3.0;font-size: 20px; ">End of page<a href="#firstdivision"> Let's go back</a></p>
+
+<!--footer-->
+<div style="height: auto; background-size: cover; background-image: url(background.jpg) ">
+  <h1 style="color: black; padding: 40px; margin: 0; text-align: center;">Made with Love</h1>
+  <p style="font-size: 20px; text-align: center;">&copy; 2021 Nurul Putri Balqis Binti Zakaria</p><br>
+</div>
+ 
+  </body>
+</html>
