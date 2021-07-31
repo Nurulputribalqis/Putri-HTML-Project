@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putri's Page</title>
+  <link rel="shortcut icon" type="image/jpg" href="picture 1.jpg">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+<style>
+body{
+
+background-size:cover;
+font-family:verdana;
+font-size:20px
+margin:0; yle>
+line-height:24px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6D9BC3;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .bdtbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .edubtn  {
+  background-color: #89CFF0;
+  opacity:1.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+   opacity:0.5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: green;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/home.html">Home</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/Biodata.html">Biodata</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/education.html">Education</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/family.html">Family</a></li>
+
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/experience.html">Experience</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/gallery.html">Gallery</a></li>
+  
+  <li><a href="file:///C:/Users/zahir/Pictures/CODING%20ASSIGNMENT/contact.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+</div>
+<div style="padding-left:25px"></div>
+</ul>
+
+<body style="margin: 0">
+  
+  <!--First division-->
+  <div id="firstdivision" style="background-image: url(background.jpg);background-size: cover; height: 550px; padding-top: 50px; text-align: center;">
+    <img src="picture 1.jpg" style="height: 150px; border-radius:50%;border: 10px">
+    <h1 style="font-family: Verdana; font-size: 90px; color:#6D9BC3  ; margin: 30px; "><strong>WELCOME TO PUTRI'S WEBSITE</strong></h1>
+    <p style="font-size: 35px; color: white;">All About Myself</p>
+     
+
+  </div>
+
+ <!--Eight division-->
+  <div id="eightdivision" style=" text-align: center;">
+        <h1 style="font-family: cursive; font-size: 50px; color: black; margin: 50px; "><strong>My Family</strong></h1>
+
+<!--Nine division-->
+    <img src="family.jpg" style="height:500px; margin: 40px;float: center; "/>
+    <div id="ninedivision" style="height:200px; margin: 40px;">
+    <p style="line-height: 2.0;font-size: 23px; ">My family is the most important person in my life. They are the person who has been always by my side. I have a very big family. I have seven siblings and I’m the fifth among the seven. My father is a Contractor while my mother is a housewife. My father and mother are the best parents in the world. They always taught me to become a better person, always respect older people and to work hard to achieve my dreams. Next, my siblings is my best friend. They always cheer me up when I’m having a trouble. lastly, my grandmother. She is like my second mother who is always give me useful advice to improve my life, always remind me to be a good person, to respect my parents and she always cook for me when my mother is not around. Below this is the pictures of my parents, siblings and my grandmother. </p>
+  </div>        
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:2200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="Family">
+    <div class="w3-quarter">
+      <img src="father.jpg" alt="Father" style="width:100%">
+      <h3>My Father</h3>
+      <p>The man in the white clothes is my father. His name is Zakaria. He is 60 years old and he is a Contractor.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="mother.jpg" alt="Mother" style="width:100%">
+      <h3>My Mother</h3>
+      <p>My mother's name is Asma. She is a housewife and she is 55 years old</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="sister 1.jpg" alt="Sister" style="width:100%">
+      <h3>Older Sister</h3>
+      <p>My older sister name is Shahira. She is married and she is 28 years old</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="sister 2.jpg" alt="Sister" style="width:100%">
+      <h3>Second Sister</h3>
+      <p>This is my second sister. Her name is Zahirah and she is 26 years old.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="sister 3.jpg" alt="Sister" style="width:100%">
+      <h3>Third Sister</h3>
+      <p>This is my third sister. Her name is Zulaika and she is 25 years old.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="big brother.jpg" alt="Brother" style="width:100%">
+      <h3>Big Brother</h3>
+      <p>This is my big brother. His name is Afiq and he is 23 years old.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="me.jpg" alt="Me" style="width:100%">
+      <h3>Myself</h3>
+      <p>This is me. I am the fifth among the seven.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="younger sister.jpg" alt="Sister" style="width:100%">
+      <h3>Younger Sister</h3>
+      <p>This is my younger sister. Her name is Aleessa and she is 19 years old.</p>
+    </div>
+  </div>
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="younger brother.jpg" alt="Brother" style="width:100%">
+      <h3>Younger Brother</h3>
+      <p>This is my younger brother. His name is Aizad and he is 17 years old.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="grandmother.jpg" alt="Grandma" style="width:100%">
+      <h3>My Grandmother</h3>
+      <p>This is my grandmother. Her name is Che Som and she is 75 years old.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="abang yunus.jpg" alt="Brother" style="width:100%">
+      <h3>Brother in Law</h3>
+      <p>This is my brother in law. I call him Abang Yunus and he is my older sister's husband.</p>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height: 3.0;font-size: 20px; text-align: left; ">End of page<a href="#firstdivision"> Let's go back</a></p>
+
+<!--footer-->
+<div style="height: auto; background-size: cover; background-image: url(background.jpg) ">
+  <h1 style="color: black; padding: 40px; margin: 0; text-align: center;"><strong>Made with Love</strong></h1>
+  <p style="font-size: 20px; text-align: center;">&copy; 2021 Nurul Putri Balqis Binti Zakaria</p><br>
+</div>
+ 
+  </body>
+</html>
